@@ -1,53 +1,66 @@
 <!DOCTYPE html>
-<!-- Oleg Nochvay is primarily responsible for this About Page -->
 
 <html lang="en">
 
 <head> 
     <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>Trip to Space!</title>
+    <style>
+        form {
+            border-style: solid;
+            border-width: 2px;
+            border-color: #2581FF;
+            padding: 5px;
+            margin: 10px;
+            display: block;
+        }
+    </style>
 </head>
 
 <body>
 
-<nav>
+  <nav>
     <ul>
-     	<li><a href="index.html">Trip Information</a></li>
-        <li><a href="our_mission.html">Our Mission</a></li>
-        <li><a href="simpson_collaboration.html">Collaboration with Simpson College</a></li>
-        <li><a href="expenses.html">Expenses</a></li>
-        <li><a href="undergraduate_aerospace_engineering_major.html">Undergraduate Aerospace Engineering Major</a></li>
-		<li><a href="why_the_moon.html">Why the Moon</a></li>
-		<li><a href="sponsors.html">Sponsors</a></li>
-		<li><a href="flight_crew.html">Flight Crew</a></li>
-		<li><a href="ship_info.html">Ship Information</a></li>
-
+     	<li><a href="index.html" class="active">Trip Information</a></li>
+      <li><a href="our_mission.html">Our Mission</a></li>
+      <li><a href="simpson_collaboration.html">Collaboration with Simpson College</a></li>
+      <li><a href="expenses.html">Expenses</a></li>
+      <li><a href="undergraduate_aerospace_engineering_major.html">Undergraduate Aerospace Engineering Major</a></li>
+		  <li><a href="why_the_moon.html">Why the Moon</a></li>
+		  <li><a href="sponsors.html">Sponsors</a></li>
+		  <li><a href="flight_crew.html">Flight Crew</a></li>
+		  <li><a href="ship_info.html">Ship Information</a></li>
     </ul>
 	
-</nav>
+  </nav>
 
 
-<h1><em>Trip Information</em></h1>
+  <h1><em>Trip Information</em></h1>
 
-
-<form><p>Please Introduce yourself:</p> 
-  First name:<br>
-  <input type="text" name="Fist Name"><br>
-  Last name:<br>
-  <input type="text" name="Last Name">
-
-</form>
+  <form>
+    <fieldset>
+      <p>Please Introduce yourself:</p>
+      First name:<br>
+      <input type="text" name="Fist Name"><br>
+      Last name:<br>
+      <input type="text" name="Last Name">
+    </fieldset>
+  </form>
 	
 	
   <p>Welcome to NASE! Our names are Oleg Nochvay, Ean Warrick, Ahmed Musa. 
-  We are the creators and pilots of the upcoming Space ship "Web developer spaceship"</p>
+  We are the creators and pilots of the upcoming Space ship "Web Developer Spaceship"</p>
 	
-  <p>The "Web developer spaceship" is one of the the spaceships of the prestigious space company
-     "National Association Space Expedition" (NASE) that was founded in 1970.</p>
+  <p>The "Web Developer Spaceship" is one of the spaceships of the prestigious space company called
+     "National Association of Space Expedition" (NASE) that was founded in 1970.</p>
 	
-  <img src="NASE.png" alt="NASE"> 
+  <img src="img/NASE.png" alt="NASE" id="picture"> 
   
-  <p>The "Web developer spaceship" expected take off date is September 1, 2020.</p>
+  <p>The "Web Developer Spaceship" expected take off date is September 1, 2020.</p>
 
+  <footer>
+    <p>Copyright 2019 by NASE</p>
+  </footer>
 </body>
 </html>
