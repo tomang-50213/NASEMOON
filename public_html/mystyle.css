@@ -1,0 +1,63 @@
+.standout{
+	color: #297FFF;
+	font-family: "Impact", Charcoal, sans-serif;
+}
+
+.exp{
+	color: white;
+	display: block;
+	background-color: #303030;
+	margin:2px;
+	padding: 3px;
+	text-orientation: center;
+	text-align: center;
+}
+
+.exp2{
+	color: white;
+	font-size: 20px;
+	background-color:#133182;
+	tex
+}
+
+#aero{
+	color: black;
+	display: inline-block;
+	background-color: #99CCFF
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 4px;
+}
+
+th{
+	color: #173AAD;
+	background-color: #999999;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+	display: inline-block;
+	background-color: black;
+	margin:3px;
+	padding: 3px;
+	border-color: #999999;
+	border-style: solid;
+	border-width: 3px;
+	text-orientation: center;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #99ccff;
+}
