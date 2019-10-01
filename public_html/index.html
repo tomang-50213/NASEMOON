@@ -4,63 +4,111 @@
 
 <head> 
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     <title>Trip to Space!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
     <style>
-        form {
-            border-style: solid;
-            border-width: 2px;
-            border-color: #2581FF;
-            padding: 5px;
-            margin: 10px;
-            display: block;
-        }
+      .container {
+        border-style: solid;
+        border-width: 1px;
+      }
     </style>
 </head>
 
 <body>
 
-  <nav>
-    <ul>
-     	<li><a href="index.html" class="active">Trip Information</a></li>
-      <li><a href="our_mission.html">Our Mission</a></li>
-      <li><a href="simpson_collaboration.html">Collaboration with Simpson College</a></li>
-      <li><a href="expenses.html">Expenses</a></li>
-      <li><a href="undergraduate_aerospace_engineering_major.html">Undergraduate Aerospace Engineering Major</a></li>
-		  <li><a href="why_the_moon.html">Why the Moon</a></li>
-		  <li><a href="sponsors.html">Sponsors</a></li>
-		  <li><a href="flight_crew.html">Flight Crew</a></li>
-		  <li><a href="ship_info.html">Ship Information</a></li>
-    </ul>
-	
-  </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-  <h1><em>Trip Information</em></h1>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="our_mission.html">Our Mission</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="ship_info.html">Ship Information</a>
+          </li>
 
-  <form>
-    <fieldset>
-      <p>Please Introduce yourself:</p>
-      First name:<br>
-      <input type="text" name="Fist Name"><br>
-      Last name:<br>
-      <input type="text" name="Last Name">
-    </fieldset>
-  </form>
-	
-	
-  <p>Welcome to NASE! Our names are Oleg Nochvay, Ean Warrick, Ahmed Musa. 
-  We are the creators and pilots of the upcoming Space ship "Web Developer Spaceship"</p>
-	
-  <p>The "Web Developer Spaceship" is one of the spaceships of the prestigious space company called
-     "National Association of Space Expedition" (NASE) that was founded in 1970.</p>
-	
-  <img src="img/NASE.png" alt="NASE" id="picture"> 
-  
-  <p>The "Web Developer Spaceship" expected take off date is September 1, 2020.</p>
+          <li class="nav-item">
+            <a class="nav-link" href="flight_crew.html">Flight Crew</a>
+          </li>
 
-  <footer>
-    <p>Copyright 2019 by NASE</p>
-  </footer>
+          <li class="nav-item">
+            <a class="nav-link" href="why_the_moon.html">Why the Moon</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="expenses.html">Expenses</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"               aria-expanded="false">
+            About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
+            <a class="dropdown-item" href="simpson_collaboration.html">Simpson Collaboration</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1><em>Trip Information</em></h1>
+        <form>
+          <fieldset>
+            <p>Please Introduce yourself:</p>
+            First name:<br>
+            <input type="text" name="Fist Name"><br>
+            Last name:<br>
+            <input type="text" name="Last Name">
+          </fieldset>
+        </form>
+    	
+          <p>Welcome to NASE! Our names are Oleg Nochvay, Ean Warrick, Ahmed Musa. 
+          We are the creators and pilots of the upcoming Space ship "Web Developer Spaceship"</p>
+    	
+          <p>The "Web Developer Spaceship" is one of the spaceships of the prestigious space company called
+          "National Association of Space Expedition" (NASE) that was founded in 1970.</p>
+    	
+      <img src="img/nase.png" alt="NASE"> 
+      
+      <p>The "Web Developer Spaceship" expected take off date is September 1, 2020.</p>
+
+      <footer>
+        <p>Copyright 2019 by NASE</p>
+      </footer>
+    </div>
+
+    <div class="alert alert-primary alert-dismissible fade show" role="alert">
+      <strong>Hey there!</strong> Did you leave the oven on? Also, this site uses cookies.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
