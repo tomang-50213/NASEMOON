@@ -6,114 +6,177 @@
  
   <meta charset="utf-8">
   <title>Trip to Space</title>
-  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Main CSS styles for Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- Optional theme add-on -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+
+    <!-- If you don't like how sandstone looks, go here and see other themes
+         that are available:
+         https://bootswatch.com/
+
+         You can replace the 'optional theme' with links from the page below
+         to get that theme:
+         https://www.bootstrapcdn.com/bootswatch/
+    -->
+    <style>
+      .container {
+        border-style: solid;
+        border-width: 1px;
+      }
+    </style>
 </head>
 
 <body>
 
-<nav>
-    <ul>
-       	<li><a href="index.html">Trip Information</a></li>
-        <li><a href="our_mission.html">Our Mission</a></li>
-        <li><a href="simpson_collaboration.html">Collaboration with Simpson College</a></li>
-        <li><a href="expenses.html">Expenses</a></li>
-        <li><a href="undergraduate_aerospace_engineering_major.html">Undergraduate Aerospace Engineering Major</a></li>
-	<li><a href="why_the_moon.html">Why the Moon</a></li>
-	<li><a href="sponsors.html">Sponsors</a></li>
-	<li><a href="flight_crew.html">Flight Crew</a></li>
-	<li><a href="ship_info.html">Ship Information</a></li>
-	    
-    </ul>
-</nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="index.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-<h1 class="standout">Undergraduate Aerospace Engineering Major</h1>
-  
-  <p> The aerospace engineer is primarily concerned with 
-   the design, analysis, testing, and overall operation of
-   vehicles that operate in air and space. The curriculum
-   is designed to provide the student with an education 
-   in the fundamental principles of aerodynamics, flight 
-   dynamics, propulsion, structural mechanics, flight controls,
-   design, testing, and space technologies. </p>
-  
-  <h2 class="standout">Mission</h2>
-  <p> The mission of the aerospace engineering program is 
-   to prepare the aerospace engineering student for a career
-   with wide-ranging opportunities in research, development,
-   design, production, sales, and management in the 
-   aerospace industry and in the many related industries
-   which are involved with the solution of multi-disciplinary,
-   advanced technical problems. As well as have real-world
-   experience in space with experienced Astronauts.</p>
-  
-  <h2 class="standout">Curriculum</h2>
-  <p>Total Credits required: 110</p>
-  <p>In Addition to the Generals which are listed on the main site. <a href="https://simpson.edu">Simpson College</a>The classes for the program requirements are below."</p>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-<ul id="aero">
-  <li id="aero"><strong>Introduction to Performance and Design</strong>
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 261</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Aerodynamics I: Incompressible Flow</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 350</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Aerodynamics II: Compressible Flow</strong>
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 312</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Flight Control Systems I</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 211</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Astrodynamics I</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 2</li>
-            <li id="aero">Course number: AER 300</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Aircraft Flight Dynamics and Control</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 253</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Aerospace Vehicle Propulsion I</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 208</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Mechanics of Materials</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 345</li>
-        </ul>
-    </li>
-    <li id="aero"><strong>Engineering Thermodynamics I</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 398</li>
-        </ul>
-    </li>
-     <li id="aero"><strong>Aerospace Capstone</strong> 
-        <ul id="aero"> 
-            <li id="aero">Credits: 4</li>
-            <li id="aero">Course number: AER 399</li>
-        </ul>
-    </li>
-  </ul>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="our_mission.html">Our Mission</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="ship_info.html">Ship Information</a>
+          </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="flight_crew.html">Flight Crew</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="why_the_moon.html">Why the Moon</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="expenses.html">Expenses</a>
+          </li>
+        
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"               aria-expanded="false">
+            About
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
+            <a class="dropdown-item" href="simpson_collaboration.html">Simpson Collaboration</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+  <div class="container">
+
+    <h1><em>Aerospace Engineering Major</em></h1>
+
+      <p> The aerospace engineer is primarily concerned with 
+      the design, analysis, testing, and overall operation of
+      vehicles that operate in air and space. The curriculum
+      is designed to provide the student with an education 
+      in the fundamental principles of aerodynamics, flight 
+      dynamics, propulsion, structural mechanics, flight controls,
+      design, testing, and space technologies. </p>
+    
+    <div class="row">
+      <div class="col-4">
+      <h2>Mission</h2>
+      <p> The mission of the aerospace engineering program is 
+      to prepare the aerospace engineering student for a career
+      with wide-ranging opportunities in research, development,
+      design, production, sales, and management in the 
+      aerospace industry and in the many related industries
+      which are involved with the solution of multi-disciplinary,
+      advanced technical problems. As well as have real-world
+      experience in space with experienced Astronauts.</p>
+    </div>
+    
+    <div class="col-md-8">
+      <h2>Curriculum</h2>
+      <p>Total Credits required: 110</p>
+      <p>In Addition to the Generals which are listed on the main site, <a href="https://simpson.edu">Simpson College</a>. The classes for the program requirements are below."</p>
+    </div>
+
+        <ul>
+          <li><strong>Introduction to Performance and Design</strong>
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 261</li>
+              </ul>
+          </li>
+          <li><strong>Aerodynamics I: Incompressible Flow</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 350</li>
+              </ul>
+          </li>
+          <li><strong>Aerodynamics II: Compressible Flow</strong>
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 312</li>
+              </ul>
+          </li>
+          <li><strong>Flight Control Systems I</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 211</li>
+              </ul>
+          </li>
+          <li><strong>Astrodynamics I</strong> 
+              <ul> 
+                  <li>Credits: 2</li>
+                  <li>Course number: AER 300</li>
+              </ul>
+          </li>
+          <li><strong>Aircraft Flight Dynamics and Control</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 253</li>
+              </ul>
+          </li>
+          <li><strong>Aerospace Vehicle Propulsion I</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 208</li>
+              </ul>
+          </li>
+          <li><strong>Mechanics of Materials</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 345</li>
+              </ul>
+          </li>
+          <li><strong>Engineering Thermodynamics I</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 398</li>
+              </ul>
+          </li>
+           <li><strong>Aerospace Capstone</strong> 
+              <ul> 
+                  <li>Credits: 4</li>
+                  <li>Course number: AER 399</li>
+              </ul>
+          </li>
+        </ul>
+      </div>
+
+    <footer>
+      <p>Copyright 2019 by NASE</p>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>
