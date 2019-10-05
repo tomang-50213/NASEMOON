@@ -8,32 +8,36 @@
     <title>Trip to Space</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Main CSS styles for Bootstrap -->
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- Optional theme add-on -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
 
-    <!-- If you don't like how sandstone looks, go here and see other themes
-         that are available:
-         https://bootswatch.com/
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
 
-         You can replace the 'optional theme' with links from the page below
-         to get that theme:
-         https://www.bootstrapcdn.com/bootswatch/
-    -->
-    <style>
-      .container {
-        border-style: solid;
-        border-width: 1px;
-      }
-    </style>
+th, td {
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color:#376CA2
+}
+
+</style>
 </head>
 
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Home</a>
+      <a class="navbar-brand"  href="index.html">Home</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -61,13 +65,13 @@
             <a class="nav-link" href="expenses.html">Expenses</a>
           </li>
         
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"               aria-expanded="false">
-            About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
-            <a class="dropdown-item" href="simpson_collaboration.html">Simpson Collaboration</a>
+         <li class="nav-item">
+            <a class="nav-link" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="simpson_collaboration.html">Simpson Collarboration</a>
+          </li>
             </div>
           </li>
         </ul>
@@ -75,71 +79,64 @@
     </nav>
     
     <div class="container">
-        <img src="img/money.png" alt="Expenses">
 
         <div class="jumbotron">
-          <h1 class="display-4">Expenses</h1>
+          <h1 class="display-4">Expenses  <img src="img/money.png" alt="Expenses"></h1>
           <p class="lead">Prices to the moon are pricey taking into account the fuel costs, 
         the price of the spaceship, insurance, etc. However Simpson college 
         offers lucrative deals to their students that consists of scholarships,
          loans, financial aid help, etc. </p>
-          <hr class="my-4">
-          <ul> 
-            <li>Full price of trip from September 1 - December 1 
-                <ul> 
-                    <li>$25,000</li>
-                </ul>
-            </li>
-            <li>Full Apollo scholarship aided price of trip from September 1 - December 1
-                <ul> 
-                    <li>$5,000</li>
-                </ul>
-            </li>
-             <li>Partial Apollo aided scholarship price of trip from September 1 - December 1 
-                <ul> 
-                    <li>$15,000</li>
-                </ul>
-            </li>
-            <li>Full Buzz Lightyear scholarship aided price of trip from September 1 - December 1
-                <ul> 
-                    <li>$10,000</li>
-                </ul>
-            </li>
-                <li>Partial Buzz Lightyear scholarship aided price of trip from September 1 - December 1 
-                <ul> 
-                    <li>$20,000</li>
-                </ul>
-            </li>
-           
-            <!--Financial Aid-->
-            <li>Financial aid price of trip from September 1 - December 1 
-                <ul> 
-                    <li>$10,000</li>
-                </ul>
-            </li>
 
-             <!-- Financial aid and scholarship-->
-             <li>Financial Aid + Full Apollo scholarship aided price of trip from September 1 - December 1
-                <ul> 
-                    <li>$0</li>
-                </ul>
-            </li>
-            <li>Financial Aid + Partial Apollo scholarship price of trip from September 1 - December 1
-                <ul> 
-                    <li>$5,000</li>
-                </ul>
-            </li>
-            <li>Financial Aid + Full Buzz Lightyear scholarship price of trip from September 1 - December 1
-                <ul> 
-                    <li>$2,000</li>
-                </ul>
-            </li>
-            <li>Financial Aid + Partial Buzz Lightyear scholarship price of trip from September 1 - December 1
-                <ul> 
-                    <li>$10,000</li>
-                </ul>
-            </li>
-        </ul>
+
+
+<table>
+  <tr>
+    <th>Scholarship</th>
+    <th>Money</th>
+  </tr>
+  <tr>
+    <td>Full price of Trip</td>
+    <td>$25,000</td>
+  </tr>
+  <tr>
+    <td>Full Apollo Scholarship</td>
+    <td>$5,000</td>
+  </tr>
+  <tr>
+    <td>Partial Apollo Scholarship</td>
+    <td>$15,000</td>
+  </tr>
+  <tr>
+    <td>Full Buzz Lightyear Scholarship</td>
+    <td>$10,000</td>
+  </tr>
+  <tr>
+    <td>Partial Buzz Lightyear Scholarship</td>
+    <td>$20,000</td>
+  </tr>
+  <tr>
+    <td>Financial Aid</td>
+    <td>$10,000</td>
+  </tr>
+  <tr>
+    <td>Financial Aid+Full Apollo Scholarship</td>
+    <td>$0.00</td>
+  </tr>
+  <tr>
+    <td>Financial Aid+Partial Apollo Scholarship</td>
+    <td>$5,000</td>
+  </tr>
+  <tr>
+    <td>Financial Aid+Full Buzz Lightyear Scholarship</td>
+    <td>$2,000</td>
+  </tr>
+  <tr>
+    <td>Financial Aid+Partial Buzz Lightyear Scholarship</td>
+    <td>$10,000</td>
+  </tr>
+  
+</table>
+
     </div>
     </div>
 
