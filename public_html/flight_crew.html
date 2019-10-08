@@ -6,26 +6,11 @@
   <title>Trip to Space</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Main CSS styles for Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-    <!-- Optional theme add-on -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/darkly/bootstrap.min.css">
+ 
 
-    <!-- If you don't like how sandstone looks, go here and see other themes
-         that are available:
-         https://bootswatch.com/
-
-         You can replace the 'optional theme' with links from the page below
-         to get that theme:
-         https://www.bootstrapcdn.com/bootswatch/
-    -->
-  <style>
-    .container {
-      border-style: solid;
-      border-width: 1px;
-    }
-  </style>
 </head>
 
 <body>
@@ -59,14 +44,12 @@
             <a class="nav-link" href="expenses.html">Expenses</a>
           </li>
         
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"               aria-expanded="false">
-            About
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
-            <a class="dropdown-item" href="simpson_collaboration.html">Simpson Collaboration</a>
-            </div>
+               <li class="nav-item">
+            <a class="nav-link" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
+          </li>
+
+           <li class="nav-item">
+            <a class="nav-link" href="simpson_collaboration.html">Simpson Collarboration</a>
           </li>
         </ul>
       </div>
@@ -75,11 +58,16 @@
   <div class="container">
 
     <div class="jumbotron">
-      <h1 class="display-4">Meet The Crew</h1>
-       
-      <p class="lead"><em>Spaceship Designers</em></p>
-      <table class="table">
-      <thead class="thead-dark">
+
+      <h1 class="display-4">Meet The Crew</h1> <img style="float: right;" alt="Star" src="img/star.png"/>
+<div style="clear: right">
+</div> 
+
+
+
+      <p class="lead">Spaceship Designers</p>
+      <table>
+      <thead>
         <tr>
           <th>First name</th>
           <th>Last name</th> 
@@ -89,7 +77,7 @@
         <tr>
          
           <td>Ean</td>
-          <td>Warrick</td>
+          <td>Warrick</td> 
           <td>18</td>
         </tr>
         <tr>
@@ -108,7 +96,7 @@
       </table>
       
       <br>
-      <p class="lead"><em>Flight Crew<em></p>
+      <p class="lead"><em>Flight Crew</em></p>
           <table class="table">
       <thead class="thead-dark">
         <tr>
@@ -138,27 +126,27 @@
     <p>Want to be part of the NASE team? Sign 
     up for job applications! We'll send you 
     the jobs that are available!</p>
-    <form>
-      <fieldset>
-        <legend>Sign up for job applications</legend>
-        First Name:
-        <br>
-        <input type="text" name="firstname">
-        <br>
-        Last Name:
-        <br>
-        <input type="text" name="lastname">
-        <br>
-        Email:
-        <br>
-        <input type="text" name="email">
-        <br>
-        <br>
-        <input type="submit" name="Submit">
-      </fieldset>
-    </form>
+      <div class="form-row">
+        <div class="form-group col-3">
+          <label class="col-form-label" for="Firstname">First Name</label>
+          <input type="text" class="form-control" placeholder="First Name" id="Firstname">
+        </div>
+        <div class="form-group col-3">
+          <label class="col-form-label" for="Lastname">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last Name" id="Lastname">
+        </div>
+      </div>
+      <div class="form-row">
+      <div class="form-group col-6">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-primary">Submit</button>
 
-    <footer>
+    <hr>
+      <footer  style="text-align:center;">
       <p>Copyright 2019 by NASE</p>
     </footer>
   </div>
