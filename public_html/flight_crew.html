@@ -116,25 +116,24 @@
     <p>Want to be part of the NASE team? Sign 
     up for job applications! We'll send you 
     the jobs that are available!</p>
-    <form>
-      <fieldset>
-        <legend>Sign up for job applications</legend>
-        First Name:
-        <br>
-        <input type="text" name="firstname">
-        <br>
-        Last Name:
-        <br>
-        <input type="text" name="lastname">
-        <br>
-        Email:
-        <br>
-        <input type="text" name="email">
-        <br>
-        <br>
-        <input type="submit" name="Submit">
-      </fieldset>
-    </form>
+      <div class="form-row">
+        <div class="form-group col-3">
+          <label class="col-form-label" for="inputDefault">First Name</label>
+          <input type="text" class="form-control" placeholder="First Name" id="inputDefault">
+        </div>
+        <div class="form-group col-3">
+          <label class="col-form-label" for="inputDefault">Last Name</label>
+          <input type="text" class="form-control" placeholder="Last Name" id="inputDefault">
+        </div>
+      </div>
+      <div class="form-row">
+      <div class="form-group col-6">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+    </div>
+    <button type="button" class="btn btn-outline-primary">Submit</button>
 
     <hr>
       <footer  style="text-align:center;">
