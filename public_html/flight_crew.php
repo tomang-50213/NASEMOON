@@ -15,46 +15,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="our_mission.html">Our Mission</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="ship_info.html">Ship Information</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="flight_crew.html">Flight Crew</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="why_the_moon.html">Why the Moon</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="expenses.html">Expenses</a>
-          </li>
-        
-               <li class="nav-item">
-            <a class="nav-link" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
-          </li>
-
-           <li class="nav-item">
-            <a class="nav-link" href="simpson_collaboration.html">Simpson Collaboration</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
+<?php include '../resources/navigation.php'; ?>
 
   <div class="container">
 
@@ -148,8 +109,7 @@
     <button type="button" class="btn btn-outline-primary">Submit</button>
 
     <hr>
-      <footer  style="text-align:center;">
-      <p>Copyright 2019 by NASE</p>
+     <?php include '../resources/footer.php'; ?>
     </footer>
   </div>
 

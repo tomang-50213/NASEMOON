@@ -18,45 +18,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <a class="navbar-brand" href="index.html">Home</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="our_mission.html">Our Mission</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="ship_info.html">Ship Information</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="flight_crew.html">Flight Crew</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="why_the_moon.html">Why the Moon</a>
-          </li>
-
-          <li class="nav-item">
-            <a class="nav-link" href="expenses.html">Expenses</a>
-          </li>
-        
-                 <li class="nav-item">
-            <a class="nav-link" href="undergraduate_aerospace_engineering_major.html">Aerospace Engineering Major</a>
-          </li>
-
-           <li class="nav-item">
-            <a class="nav-link" href="simpson_collaboration.html">Simpson Collaboration</a>
-            </div>
-        </ul>
-      </div>
-    </nav>
+<?php include '../resources/navigation.php'; ?>
     
   <div class="container">
     <h1>In Collaboration with Simpson College</h1>
@@ -80,9 +42,7 @@
       <h5><b> NASEMOON, we strive to make space affordable to passionate college students.</b></h5>
 
     <hr>
-      <footer  style="text-align:center;">
-      <p>Copyright 2019 by NASE</p>
-    </footer>
+   <?php include '../resources/footer.php'; ?>
   </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
